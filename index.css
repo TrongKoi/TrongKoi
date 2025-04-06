@@ -67,26 +67,80 @@ input[type="radio"] {
   }
 
 
-  h1 {
-  color: white;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 800;
-  font-size: 4vw;
-  text-align: center;
-  margin-top: 40px;
+  body {
+    background: linear-gradient(135deg, #01060b, #04151f, #020b30);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.slider-container {
+    position: relative;
+    width: 800px;
+    height: 550px;
+    overflow: hidden;
+    margin-top: 40px;
 }
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 6vw;
-    margin-top: 30px;
+  
+input[type="radio"] {
+    display: none;
   }
-
-  .slider-container {
-    height: auto;
+  
+  .slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
   }
-
+  
+  .slide {
+    width: 100%;
+    flex: 0 0 100%;
+  }
+  
   .slide img {
-    height: auto;
-  }
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 1rem;
 }
+
+  #slide1:checked ~ .slides { transform: translateX(0%); }
+  #slide2:checked ~ .slides { transform: translateX(-100%); }
+  #slide3:checked ~ .slides { transform: translateX(-200%); }
+  #slide4:checked ~ .slides { transform: translateX(-300%); }
+  
+  .nav-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-dots label {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: white;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .nav-dots label:hover {
+    opacity: 1;
+  }
+
+
+  h1 {
+    color: white;
+    font-family: "Quicksand", serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 50px;
+    position: fixed;
+    height: 80vh;
+  }
