@@ -68,11 +68,25 @@ input[type="radio"] {
 
 
   h1 {
-    color: white;
-    font-family: "Quicksand", serif;
-    font-weight: 800;
-    font-style: bold;
-    font-size: 50px;
-    position: fixed;
-    height: 80vh;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 800;
+  font-size: 4vw;
+  text-align: center;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 6vw;
+    margin-top: 30px;
   }
+
+  .slider-container {
+    height: auto;
+  }
+
+  .slide img {
+    height: auto;
+  }
+}
