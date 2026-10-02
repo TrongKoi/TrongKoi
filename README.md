@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C2410C,50:F97316,100:FDBA74&height=200&section=header&text=Trong%20Khoi%20Than&fontSize=64&fontColor=ffffff&fontAlignY=35&desc=AI%20Solutions%20%7C%20Business%20Analysis%20%7C%20AI%20Major&descSize=20&descAlignY=55&animation=twinkling" width="100%" alt="Trong Khoi Than — AI Solutions, Business Analysis, AI Major" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C2410C,50:F97316,100:FDBA74&height=200&section=header&text=Trong%20Khoi%20Than&fontSize=64&fontColor=ffffff&fontAlignY=35&desc=AI%20Solutions%20%7C%20Business%20Analysis%20%7C%20AI%20Major&descSize=20&descAlignY=55&animation=twinkling" width="100%" alt=" Trong Khoi Than — AI Solutions, Business Analysis, AI Major" />
 </div>
 
 ## About Me
